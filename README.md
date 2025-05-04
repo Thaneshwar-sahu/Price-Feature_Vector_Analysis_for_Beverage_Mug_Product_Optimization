@@ -39,6 +39,9 @@ This analysis uses a **Discrete Choice Model** with **logit adjustment** to simu
 
 All computations are implemented in **Python** using `pandas` and `NumPy`.
 
+## Solution Snapshots 
+![Key Feature Screenshot](Screenshot 2025-05-04 155622.png)
+
 ## Disclaimer
 This project was completed as part of an academic exercise focused on product and pricing optimization using discrete choice modeling. Please note:
 
