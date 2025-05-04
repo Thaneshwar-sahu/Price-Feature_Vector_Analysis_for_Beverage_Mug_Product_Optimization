@@ -2,14 +2,14 @@
 This project tackles a product optimization problem for beverage mugs using consumer preference data. We aim to identify the optimal combination of product features and price that maximizes expected profit per customer, while also exploring trade-offs between market share, cost, margin, and revenue. The solution employs discrete choice modeling using a compensatory rule with logit adjustment and a scaling factor c = 0.0139.
 
 ## Problem Setup
-  Attributes and Levels
-  Each product is defined by 5 features and price:
-  Price: $30, $10, $5
-  Time Insulated: 0.5 hr, 1 hr, 3 hrs
-  Capacity: 12 oz, 20 oz, 32 oz
-  Cleanability: Difficult (7 min), Fair (5 min), Easy (2 min)
-  Containment: Slosh resistant, Spill resistant, Leak resistant
-  Brand: A, B, C
+  Each product is defined by a set of five attributes and a price level. 
+  The objective is to determine the optimal combination of these attributes to maximize expected profit per person in a competitive market scenario.
+- **Price**: `$30`, `$10`, `$5`
+- **Time Insulated**: `0.5 hr`, `1 hr`, `3 hrs`
+- **Capacity**: `12 oz`, `20 oz`, `32 oz`
+- **Cleanability**: `Difficult (7 min)`, `Fair (5 min)`, `Easy (2 min)`
+- **Containment**: `Slosh resistant`, `Spill resistant`, `Leak resistant`
+- **Brand**: `A`, `B`, `C`
 
 ## Market Scenario
 
